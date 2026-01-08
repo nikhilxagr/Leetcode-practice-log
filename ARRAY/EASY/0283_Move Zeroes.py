@@ -31,3 +31,4 @@ class Solution(object):
             nums[index] = 0
             index += 1
             
+                  
