@@ -1,221 +1,534 @@
 <div align="center">
 
-# 💻 LeetCode Solutions Repository
+# 🚀 LeetCode Solutions
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=LeetCode%20Journey&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FFA116&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Data+Structures+%26+Algorithms;LeetCode+Practice+Solutions;By+Nikhil+Agrahari" alt="Typing SVG" />
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-nikhilxagr-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhilxagr)
+[![Gmail](https://img.shields.io/badge/Gmail-nikhilgithub212206-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikhilgithub212206@gmail.com)
 
-[![Daily Progress](https://img.shields.io/badge/Daily%20Commitment-1%20Problem-00C853?style=for-the-badge&logo=target&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#)
-[![Stars](https://img.shields.io/github/stars/ggauravky/leetcode-solutions?style=for-the-badge&logo=github&color=yellow)](https://github.com/ggauravky/leetcode-solutions)
+---
 
-### 🎯 A systematically organized collection of LeetCode solutions
+### 👨‍💻 **Created & Maintained by Nikhil Agrahari**
 
-### 📚 Structured by Topic & Difficulty Level
-
-[📊 Solutions](#-solutions-by-topic) • [📈 Progress](#-progress-tracker) • [💡 Approach](#-problem-solving-approach) • [👤 Connect](#-connect-with-me)
+*Passionate Problem Solver | Algorithm Enthusiast | Software Developer*
 
 </div>
 
 ---
 
+## 📊 Repository Stats
+
 <div align="center">
 
-## 📖 About
+| 🟢 Easy | 🟡 Medium | 🔴 Hard | 📈 Total |
+|:-------:|:---------:|:-------:|:--------:|
+| **1** | **0** | **0** | **1** |
 
 </div>
 
-This repository contains my journey through LeetCode problems, solving at least **one problem daily**. Each solution is carefully organized by:
+<div align="center">
 
-- 📂 **Topic** (Arrays, Strings, Trees, Dynamic Programming, etc.)
-- 🎯 **Difficulty Level** (Easy, Medium, Hard)
+```
+Progress: ███░░░░░░░░░░░░░░░░░ 1/100+ Problems
+```
 
-Each difficulty folder includes a **`000why.md`** guide file with:
-
-- 📋 Folder purpose and difficulty explanation
-- 💡 Common patterns and problem-solving tips
-- 📊 List of all problems in that folder
-- 📈 Progress tracking
+</div>
 
 ---
 
-<div align="center">
+## 🎯 About This Repository
 
-## 🗂️ Repository Structure
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; margin: 10px 0;">
 
-</div>
-
-```
-📦 leetcode-solutions/
-│
-├── 📁 arrays/
-│   ├── 🟢 EASY/
-│   │   ├── 📄 000why.md          ← Folder guide & tips
-│   │   └── 🐍 001 Two Sum.py
-│   ├── 🟡 MEDIUM/
-│   │   └── 📄 000why.md          ← Folder guide & tips
-│   └── 🔴 HARD/
-│       └── 📄 000why.md          ← Folder guide & tips
-│
-└── 📄 README.md                  ← You are here!
-```
-
-💡 Each difficulty folder contains a `000why.md` file explaining:
-
-- ✨ Folder purpose and difficulty level
-- 📊 List of problems inside
-- 💡 Common patterns and tips
-- 📈 Progress tracking
-
-<div align="center">
-
-## 🎯 Solutions by Topic
+Welcome to my **LeetCode Solutions** repository! This is a comprehensive collection of my solutions to various Data Structures and Algorithms problems from LeetCode, organized by difficulty level and topic.
 
 </div>
 
-### 📊 Arrays
+### 🎓 Purpose
 
-| #   | Title   | Difficulty                                         | Solution                                   | Tags               |
-| --- | ------- | -------------------------------------------------- | ------------------------------------------ | ------------------ |
-| 001 | Two Sum | ![Easy](https://img.shields.io/badge/-Easy-5CB85C) | [Python](./arrays/EASY/001%20Two%20Sum.py) | `Hash Map` `Array` |
+- 📚 **Learning**: Document my journey in mastering DSA
+- 🧠 **Practice**: Regular problem-solving to sharpen skills
+- 🤝 **Sharing**: Help others learn from my solutions
+- 💼 **Interview Prep**: Building a strong foundation for technical interviews
 
-📁 **View folder structure**
+---
+
+## 📂 Repository Structure
 
 ```
-arrays/
-├── EASY/     → 1 problem
-├── MEDIUM/   → 0 problems
-└── HARD/     → 0 problems
+📦 Leetcode-Practice/
+│
+├── 📂 EASY/
+│   ├── 📂 Arrays/
+│   │   ├── 📄 0001_two_sum.py
+│   │   └── 📄 0000_WHAT.md
+│   ├── 📂 Strings/
+│   │   └── 📄 0000_WHAT.md
+│   ├── 📂 Linked Lists/
+│   │   └── 📄 0000_WHAT.md
+│   └── 📂 Trees/
+│       └── 📄 0000_WHAT.md
+│
+├── 📂 MEDIUM/
+│   ├── 📂 Arrays/
+│   │   └── 📄 0000_WHAT.md
+│   ├── 📂 Strings/
+│   │   └── 📄 0000_WHAT.md
+│   ├── 📂 Graphs/
+│   │   └── 📄 0000_WHAT.md
+│   └── 📂 Dynamic Programming/
+│       └── 📄 0000_WHAT.md
+│
+├── 📂 HARD/
+│   ├── 📂 Arrays/
+│   │   └── 📄 0000_WHAT.md
+│   ├── 📂 Graphs/
+│   │   └── 📄 0000_WHAT.md
+│   └── 📂 Advanced DS/
+│       └── 📄 0000_WHAT.md
+│
+└── 📄 README.md
 ```
+
+---
+
+## 🗂️ Problem Categories
 
 <div align="center">
+
+### 🟢 Easy Level
+
+<div style="background: linear-gradient(135deg, #5CB85C 0%, #4CAF50 100%); padding: 15px; border-radius: 8px; color: white; margin: 10px 0;">
+
+**Foundation Building Problems** - Perfect for beginners
+
+</div>
+
+| Topic | Problems Solved | Key Concepts |
+|:------|:---------------:|:-------------|
+| **Arrays** | 1 | Hash Maps, Two Pointers, Sorting |
+| **Strings** | 0 | Manipulation, Pattern Matching |
+| **Linked Lists** | 0 | Traversal, Two Pointers |
+| **Trees** | 0 | DFS, BFS, Recursion |
+| **Hash Tables** | 0 | Frequency Count, Lookups |
+| **Stack & Queue** | 0 | LIFO, FIFO Operations |
+
+📁 [View Easy Problems](./EASY/)
+
+---
+
+### 🟡 Medium Level
+
+<div style="background: linear-gradient(135deg, #F0AD4E 0%, #EC971F 100%); padding: 15px; border-radius: 8px; color: white; margin: 10px 0;">
+
+**Intermediate Challenges** - Building optimization skills
+
+</div>
+
+| Topic | Problems Solved | Key Concepts |
+|:------|:---------------:|:-------------|
+| **Arrays** | 0 | Sliding Window, Prefix Sum, Binary Search |
+| **Strings** | 0 | Dynamic Programming, Backtracking |
+| **Graphs** | 0 | DFS, BFS, Dijkstra |
+| **Dynamic Programming** | 0 | Memoization, Tabulation |
+| **Trees** | 0 | BST, Tree DP |
+| **Backtracking** | 0 | Permutations, Combinations |
+
+📁 [View Medium Problems](./MEDIUM/)
+
+---
+
+### 🔴 Hard Level
+
+<div style="background: linear-gradient(135deg, #D9534F 0%, #C9302C 100%); padding: 15px; border-radius: 8px; color: white; margin: 10px 0;">
+
+**Advanced Algorithms** - Expert-level challenges
+
+</div>
+
+| Topic | Problems Solved | Key Concepts |
+|:------|:---------------:|:-------------|
+| **Arrays** | 0 | Advanced DP, Segment Trees, Fenwick Trees |
+| **Graphs** | 0 | Floyd-Warshall, Tarjan's, Kosaraju's |
+| **Trees** | 0 | Morris Traversal, AVL, Red-Black |
+| **Advanced DS** | 0 | Trie, Union Find, Heap |
+| **Math** | 0 | Number Theory, Combinatorics |
+| **Bit Manipulation** | 0 | Bitmasking, XOR Properties |
+
+📁 [View Hard Problems](./HARD/)
+
+</div>
+
+---
+
+## 💡 Common Patterns & Techniques
+
+<div align="center">
+
+| Pattern | Description | Difficulty | Usage |
+|:--------|:------------|:----------:|:-----:|
+| 🪟 **Sliding Window** | Dynamic window for subarrays | 🟡 | Subarray problems |
+| 👉👈 **Two Pointers** | Efficient array traversal | 🟢 | Sorted arrays, pairs |
+| 🗺️ **Hash Maps** | O(1) lookups and counting | 🟢 | Frequency, duplicates |
+| 💾 **Dynamic Programming** | Optimal substructure | 🟡 | Optimization problems |
+| 🌲 **DFS/BFS** | Tree & Graph traversal | 🟢 | Connectivity, paths |
+| 🔍 **Binary Search** | Logarithmic search | 🟡 | Sorted data |
+| 🔙 **Backtracking** | Explore all possibilities | 🟡 | Combinations, permutations |
+| 🎯 **Greedy** | Local optimal choices | 🟡 | Optimization |
+| 🔢 **Bit Manipulation** | Bitwise operations | 🟡 | Space optimization |
+| 📊 **Prefix Sum** | Precomputation | 🟢 | Range queries |
+
+</div>
+
+---
+
+## 🎯 Solution Format
+
+Each solution file follows this structure:
+
+```python
+"""
+Problem: [Problem Name]
+Difficulty: [Easy/Medium/Hard]
+LeetCode #: [Problem Number]
+Link: [LeetCode URL]
+
+Problem Description:
+[Brief description of what the problem asks]
+
+Example:
+Input: [sample input]
+Output: [sample output]
+Explanation: [why this output]
+
+Constraints:
+- [constraint 1]
+- [constraint 2]
+
+Approach:
+[Detailed explanation of the solution strategy]
+
+Algorithm Steps:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+Time Complexity: O(?)
+Space Complexity: O(?)
+
+Tags: [Array, Hash Table, Two Pointers, etc.]
+
+Author: Nikhil Agrahari
+Date: [Submission Date]
+"""
+
+class Solution:
+    def solutionMethod(self, params):
+        """
+        Main solution method
+        """
+        # Implementation
+        pass
+
+# Test Cases
+if __name__ == "__main__":
+    solution = Solution()
+    # Test case 1
+    print(solution.solutionMethod(test_input))
+```
+
+---
 
 ## 📈 Progress Tracker
 
-</div>
+<div align="center">
 
-| Difficulty                                             | Solved | Total |
-| ------------------------------------------------------ | ------ | ----- |
-| ![Easy](https://img.shields.io/badge/-Easy-5CB85C)     | 1      | ∞     |
-| ![Medium](https://img.shields.io/badge/-Medium-F0AD4E) | 0      | ∞     |
-| ![Hard](https://img.shields.io/badge/-Hard-D9534F)     | 0      | ∞     |
-| **Total**                                              | **1**  | **∞** |
+### 🏆 Overall Progress
+
+```
+🟢 Easy:   ██░░░░░░░░░░░░░░░░░░ 1/50  (2%)
+🟡 Medium: ░░░░░░░░░░░░░░░░░░░░ 0/100 (0%)
+🔴 Hard:   ░░░░░░░░░░░░░░░░░░░░ 0/50  (0%)
+───────────────────────────────────────
+📊 Total:  ░░░░░░░░░░░░░░░░░░░░ 1/200 (0.5%)
+```
+
+### 📊 Topics Breakdown
+
+| Topic | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total | Status |
+|:------|:-------:|:---------:|:-------:|:-----:|:------:|
+| **Arrays** | 1 | 0 | 0 | 1 | 🔥 |
+| **Strings** | 0 | 0 | 0 | 0 | ⏳ |
+| **Linked Lists** | 0 | 0 | 0 | 0 | ⏳ |
+| **Trees** | 0 | 0 | 0 | 0 | ⏳ |
+| **Graphs** | 0 | 0 | 0 | 0 | ⏳ |
+| **Dynamic Programming** | 0 | 0 | 0 | 0 | ⏳ |
+| **Backtracking** | 0 | 0 | 0 | 0 | ⏳ |
+| **Stack & Queue** | 0 | 0 | 0 | 0 | ⏳ |
+| **Heap** | 0 | 0 | 0 | 0 | ⏳ |
+| **Hash Table** | 0 | 0 | 0 | 0 | ⏳ |
+
+### 🎯 Milestones
+
+- [x] 🎉 First Problem Solved!
+- [ ] 🏅 10 Problems Solved
+- [ ] 🌟 25 Problems Solved
+- [ ] 💎 50 Problems Solved
+- [ ] 🏆 100 Problems Solved
+- [ ] 👑 200 Problems Solved
+
+</div>
 
 ---
 
+## 🛠️ Technologies & Tools
+
 <div align="center">
 
-## 💡 Problem Solving Approach
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
-Each solution follows a structured format:
+---
 
-1. **Problem Statement** - Clear description of the problem
-2. **Approach** - Explanation of the solution strategy
-3. **Time Complexity** - Big O notation for time
-4. **Space Complexity** - Big O notation for space
-5. **Code** - Clean, well-commented implementation
+## 📚 Learning Resources
 
 <div align="center">
 
-## 🛠️ Tech Stack & Tools
+| Resource | Type | Description | Link |
+|:---------|:-----|:------------|:----:|
+| 🎯 **LeetCode** | Platform | Practice Problems | [Visit](https://leetcode.com) |
+| 📺 **NeetCode** | Videos | Visual Solutions | [Visit](https://neetcode.io) |
+| 📖 **GeeksforGeeks** | Articles | DSA Theory | [Visit](https://www.geeksforgeeks.org) |
+| 🎓 **MIT OCW** | Course | Algorithms Course | [Visit](https://ocw.mit.edu) |
+| 📊 **VisuAlgo** | Tool | Visual Learning | [Visit](https://visualgo.net) |
+| 📚 **CLRS** | Book | Algorithm Bible | [Amazon](https://amazon.com) |
+| 🎬 **Abdul Bari** | Videos | Algorithm Tutorials | [YouTube](https://youtube.com) |
 
 </div>
 
-| Category               | Tools                                                                                                                                                                                          |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **💻 Language**        | ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)                                                                                        |
-| **🔧 IDE**             | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)                                                                                |
-| **📊 Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
-| **📝 Documentation**   | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)                                                                                      |
+---
+
+## 💻 How to Use This Repository
+
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/nikhilxagr/Leetcode-Practice.git
+cd Leetcode-Practice
+```
+
+### 📂 Navigate to Problems
+
+```bash
+# Easy problems
+cd EASY/Arrays
+
+# Medium problems
+cd MEDIUM/Strings
+
+# Hard problems
+cd HARD/Graphs
+```
+
+### ▶️ Run Solutions
+
+```bash
+# Run Python solution
+python 0001_two_sum.py
+
+# Run with test cases
+python -m pytest 0001_two_sum.py -v
+```
+
+### 📖 Read Documentation
+
+Each folder contains a `0000_WHAT.md` file with:
+- Topic overview
+- Common patterns
+- Tips and tricks
+- Related problems
+
+---
+
+## 🎯 My Goals
 
 <div align="center">
 
-## 📚 Topics Covered
+### 2026 Objectives
+
+| Goal | Target | Status |
+|:-----|:------:|:------:|
+| Complete Easy Problems | 50 | 🔄 2% |
+| Complete Medium Problems | 100 | ⏳ 0% |
+| Complete Hard Problems | 50 | ⏳ 0% |
+| Master All Patterns | 15 | 🔄 10% |
+| Complete Blind 75 | 75 | ⏳ 0% |
+| LeetCode Rating | 2000+ | 🎯 |
 
 </div>
 
-| Status             | Topic                                  |
-| ------------------ | -------------------------------------- |
-| ✅ **In Progress** | Arrays                                 |
-| ⏳ **Coming Soon** | Strings, Hash Tables, Linked Lists     |
-| ⏳ **Coming Soon** | Stacks, Queues, Trees, Graphs          |
-| ⏳ **Coming Soon** | Dynamic Programming, Greedy Algorithms |
-| ⏳ **Coming Soon** | Sorting, Searching, Two Pointers       |
-| ⏳ **Coming Soon** | Backtracking, Recursion, BFS, DFS      |
+### 📋 Checklist
 
-<div align="center">
+- [x] 🎯 Repository Setup
+- [x] 📝 First Problem Solved
+- [ ] 🏅 First 10 Problems
+- [ ] 🌟 Complete Arrays Topic
+- [ ] 💎 Complete Strings Topic
+- [ ] 🔥 100-Day Streak
+- [ ] 🏆 LeetCode Knight Badge
+- [ ] 👑 All Easy Problems
 
-## 🎓 Learning Goals
-
-</div>
-
-- ✅ Solve at least **1 problem daily**
-- 🎯 Master core data structures and algorithms
-- 🚀 Improve problem-solving speed and accuracy
-- 💪 Build consistency and discipline
-
-<div align="center">
+---
 
 ## 🤝 Contributing
 
-</div>
+While this is primarily a personal learning repository, I welcome:
 
-Feel free to:
+- 💡 **Suggestions** for better solutions
+- 🐛 **Bug reports** if you find issues
+- 📝 **Alternative approaches** to problems
+- 🔗 **Resource recommendations**
 
-- 🐛 Report bugs or issues
-- 💡 Suggest better approaches
-- ⭐ Star this repository if you find it helpful!
+### How to Contribute
 
-## 📬 Connect With Me
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch
+   ```bash
+   git checkout -b feature/improvement
+   ```
+3. ✅ Commit your changes
+   ```bash
+   git commit -m 'Add: Better solution for problem X'
+   ```
+4. 📤 Push to the branch
+   ```bash
+   git push origin feature/improvement
+   ```
+5. 🔃 Open a Pull Request
+
+---
+
+## 📝 Notes & Guidelines
+
+### ✅ Solution Quality
+
+- ✔️ All solutions tested and accepted on LeetCode
+- ✔️ Time and Space complexity analysis included
+- ✔️ Multiple approaches when applicable
+- ✔️ Detailed comments and explanations
+- ✔️ Edge cases considered
+- ✔️ Clean and readable code
+
+### 📌 Commit Format
+
+```
+Type: Brief description
+
+- Detail 1
+- Detail 2
+
+Problem: #[Number] - [Name]
+Difficulty: [Easy/Medium/Hard]
+```
+
+**Types:**
+- `Add:` New problem solution
+- `Update:` Improve existing solution
+- `Fix:` Bug fixes
+- `Docs:` Documentation updates
+- `Refactor:` Code refactoring
+
+---
+
+## 🌟 About the Author
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ggauravky)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/gauravky/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gauravky)
+### **Nikhil Agrahari**
+
+*Software Developer | Problem Solver | Tech Enthusiast*
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=FFA116&center=true&vCenter=true&width=500&lines=Passionate+about+Algorithms;Learning+DSA+Every+Day;Building+Problem+Solving+Skills" alt="Typing SVG" />
 
 </div>
 
-<div align="center">
+I'm on a journey to master Data Structures and Algorithms through consistent practice and deep understanding. This repository documents every step of my learning process.
 
-## 📝 License
+### 🎯 My Approach
 
-</div>
+1. 📖 **Understand** - Read the problem thoroughly
+2. 🧠 **Think** - Consider multiple approaches
+3. 💻 **Code** - Implement the solution
+4. ⚡ **Optimize** - Improve time/space complexity
+5. 🧪 **Test** - Verify with edge cases
+6. 📝 **Document** - Explain the solution clearly
 
-This project is licensed under the MIT License - feel free to use these solutions for learning purposes!
+### 📊 Coding Philosophy
+
+> *"The only way to learn programming is by writing programs."*
+
+- 🔥 Consistency over intensity
+- 🎯 Quality over quantity
+- 🧩 Understanding over memorization
+- 💪 Persistence through challenges
 
 ---
 
 <div align="center">
 
-### 💫 Show Your Support
+## 🔗 Connect With Me
 
-**If you find this repository helpful, please consider:**
-
-[![Star](https://img.shields.io/badge/%E2%AD%90%20Star-This%20Repo-yellow?style=for-the-badge)](https://github.com/ggauravky/leetcode-solutions)
-[![Fork](https://img.shields.io/badge/%F0%9F%94%B1%20Fork-This%20Repo-blue?style=for-the-badge)](https://github.com/ggauravky/leetcode-solutions/fork)
-[![Follow](https://img.shields.io/badge/%F0%9F%91%A4%20Follow-@ggauravky-black?style=for-the-badge)](https://github.com/ggauravky)
+[![GitHub](https://img.shields.io/badge/GitHub-nikhilxagr-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhilxagr)
+[![Gmail](https://img.shields.io/badge/Gmail-nikhilgithub212206-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikhilgithub212206@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com)
 
 ---
 
-### 💭 Inspirational Quotes
+### 💬 Feedback & Support
 
-_"The only way to learn a new programming language is by writing programs in it."_  
-**- Dennis Ritchie**
+Found this helpful? Here's how you can support:
 
-_"First, solve the problem. Then, write the code."_  
-**- John Johnson**
+- ⭐ **Star** this repository
+- 🔀 **Fork** to create your own version
+- 👁️ **Watch** for updates
+- 🐛 **Report** issues you find
+- 💡 **Share** your solutions and ideas
+
+---
+
+### 📬 Get in Touch
+
+Feel free to reach out for:
+- 🤝 Collaboration on projects
+- 💭 Discussion about algorithms
+- 📚 Learning resources sharing
+- 🎯 Interview preparation tips
+
+---
+
+**Keep grinding! Every problem solved is a step forward! 💪**
+
+*"The expert in anything was once a beginner."*
+
+---
+
+**Repository Stats:**
+- 📅 Created: January 2026
+- 🔄 Last Updated: January 9, 2026
+- 📊 Total Problems: 1
+- 🎯 Current Streak: Building...
+
+---
+
+⭐ _Happy Coding!_ ⭐
 
 </div>
-
----
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
-
-**Happy Coding! 🚀** | **Keep Learning! 📚** | **Never Give Up! 💪**
