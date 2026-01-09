@@ -1,15 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFA116,100:FF6B35&height=200&section=header&text=LeetCode%20Solutions&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Master%20Data%20Structures%20%26%20Algorithms&descAlignY=55&descAlign=50" width="100%"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=LeetCode%20Solution&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FFA116&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Data+Structures+%26+Algorithms;Problem+Solving+Journey" alt="Typing SVG" />
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
-[![GitHub](https://img.shields.io/badge/GitHub-nikhilxagr-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhilxagr)
-[![Gmail](https://img.shields.io/badge/Gmail-nikhilgithub212206-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikhilgithub212206@gmail.com)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Daily Progress](https://img.shields.io/badge/Daily%20Commitment-1%20Problem-00C853?style=for-the-badge&logo=target&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#)
+[![Stars](https://img.shields.io/github/stars/nikhilxagr/leetcode-practice-log?style=for-the-badge&logo=github&color=yellow)](https://github.com/nikhilxagr/leetcode-practice-log)
 
----
+### 🎯 A systematically organized collection of LeetCode solutions
+
+### 📚 Structured by Difficulty Level
 
 ### 👨‍💻 **Created & Maintained by Nikhil Agrahari**
 
