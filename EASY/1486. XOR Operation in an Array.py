@@ -6,8 +6,9 @@
 
 # Return the bitwise XOR of all elements of nums.
 
-# Examples
 
+
+# Examples:
 """
 Example 1:
 
@@ -20,17 +21,12 @@ Example 2:
 Input: n = 4, start = 3
 Output: 8
 Explanation: Array nums is equal to [3, 5, 7, 9] where (3 ^ 5 ^ 7 ^ 9) = 8.
- """
- 
-#  Solution:
+"""
+
+# Solution:
 
 class Solution(object):
     def xorOperation(self, n, start):
-        """
-        :type n: int
-        :type start: int
-        :rtype: int
-        """
         ans = 0
         for i in range(n):
             ans ^= start + 2 * i
