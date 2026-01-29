@@ -39,10 +39,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+        
         roman_no = {
             'I': 1,
             'V': 5,
@@ -54,15 +51,24 @@ class Solution(object):
         }
         
         total = 0
-        prev_value = 0
+        prev_val = 0
         
-        for char in reversed(s):
-            current_value = roman_no[char]
+        for i in range(len(s)):
+            current_val = roman_no[s[i]]
             
-            if current_value < prev_value:
-                total = total - current_value
-            else:
-                total = total + current_value
-            prev_value = current_value
-        
+            if current_val > prev_val:
+                total += current_val - 2 * prev_val
+            
+            else :
+                total += current_val
+                
+            prev_val = current_val
+            
         return total
+    
+sol = Solution()
+print(sol.romanToInt("MCMXCIV"))
+    
+    
+                     
+                
