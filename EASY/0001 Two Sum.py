@@ -43,7 +43,7 @@ class Solution(object):
 class Solution(object):
     def twoSum(self, nums, target):
         
-        for i in range(0,len(nums)):
+        for i in range(len(nums)):
             
             for j in range(i + 1 , len(nums)):
                 
@@ -51,3 +51,8 @@ class Solution(object):
                     
                     return [i,j]        
     
+#Explanation in short :
+# We have two loops, the outer loop iterates through each element in the nums array, while the inner loop starts from the next element (i + 1) to avoid using the same element twice.
+# Inside the inner loop, we check if the sum of the current elements (nums[i] and nums[j]) equals the target. If it does, we return the indices [i, j].
+    
+            
