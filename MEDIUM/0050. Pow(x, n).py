@@ -36,4 +36,21 @@ class Solution(object):
             return half * half
         else:
             return x * self.myPow(x, n - 1)
+    
+# Another Easy Approach ( Binary Exponentiation):
+class Solution(object):
+    def myPow(self, x, n):
         
+        if n < 0:
+            x = 1 / x
+            n = -n
+            
+        ans = 1
+        
+        while n > 0:
+            if n % 2 == 1:
+                ans *= x
+            x *= x       
+            n = n // 2         
+            
+        return ans
