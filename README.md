@@ -31,7 +31,7 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 <tr>
 <td align="center" style="background-color: #00B8A9;">
 <h3>🟢 Easy</h3>
-<h1>23</h1>
+<h1>21</h1>
 <p>Problems Solved</p>
 </td>
 <td align="center" style="background-color: #FFA116;">
@@ -46,7 +46,7 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 </td>
 <td align="center" style="background-color: #FFA116;">
 <h3>📈 Total</h3>
-<h1>23</h1>
+<h1>21</h1>
 <p>Problems Solved</p>
 </td>
 </tr>
@@ -55,9 +55,9 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 ### 📈 Progress Bar
 
 ```
-Overall: ████████░░░░░░░░░░░░ 23/200 (11.5%)
-Easy:    ███████████████░░░░░ 23/50  (46%)
-Medium:  ░░░░░░░░░░░░░░░░░░░░ 0/100  (0%)
+Overall: ███████░░░░░░░░░░░░░ 21/200 (10.5%)
+Easy:    ██████████████░░░░░░ 21/50  (42%)
+Medium:  ░░░░░░░░░░░░░░░░░░░░ 0/100 (0%)
 Hard:    ░░░░░░░░░░░░░░░░░░░░ 0/50   (0%)
 ```
 
@@ -90,7 +90,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 ```
 📦 Leetcode-Practice-Log/
 │
-├── 📂 EASY/                      # 23 Problems ✅
+├── 📂 EASY/                      # 21 Problems ✅
 │   ├── 📄 0001_Two_Sum.py
 │   ├── 📄 0013_Roman_to_Integer.py
 │   ├── 📄 0014_Longest_Common_Prefix.py
@@ -98,7 +98,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 │   ├── 📄 0026_Remove_Duplicates.py
 │   ├── 📄 0027_Remove_Element.py
 │   ├── 📄 0028_Find_Index.py
-│   ├── 📄 0035_Search_Insert_Position.py
+│   ├── 📄 0035_Search_Insert_position.py
 │   ├── 📄 0058_Length_of_Last_Word.py
 │   ├── 📄 0066_Plus_One.py
 │   ├── 📄 0088_Merge_Sorted_Array.py
@@ -129,7 +129,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 
 <div align="center">
 
-### 🟢 Easy Level Problems (23/50)
+### 🟢 Easy Level Problems (21/50)
 
 <table>
 <thead>
@@ -204,7 +204,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 <td>Search Insert Position</td>
 <td><img src="https://img.shields.io/badge/Easy-00B8A9?style=flat-square" alt="Easy"/></td>
 <td><code>Array</code> <code>Binary Search</code></td>
-<td><a href="./EASY/0035_Search_Insert_Position.py">📝 Solution</a></td>
+<td><a href="./EASY/0035_Search_Insert_position.py">📝 Solution</a></td>
 <td><a href="https://leetcode.com/problems/search-insert-position/">🔗 Link</a></td>
 </tr>
 <tr>
@@ -349,11 +349,11 @@ This comprehensive collection documents my journey in mastering Data Structures 
 ### 🏆 Overall Progress
 
 ```
-🟢 Easy:    ███████████████░░░░░ 23/50  (46%)
+🟢 Easy:    ██████████████░░░░░░ 21/50  (42%)
 🟡 Medium: ░░░░░░░░░░░░░░░░░░░░ 0/100 (0%)
 🔴 Hard:   ░░░░░░░░░░░░░░░░░░░░ 0/50  (0%)
 ───────────────────────────────────────
-📊 Total:   ██░░░░░░░░░░░░░░░░░░ 23/200 (11.5%)
+📊 Total:   ██░░░░░░░░░░░░░░░░░░ 21/200 (10.5%)
 ```
 
 ### 📊 Topics Breakdown
@@ -475,7 +475,7 @@ cd HARD
 
 | Goal                     | Target | Current | Status | Progress |
 | :----------------------- | :----: | :-----: | :----: | :------: |
-| Complete Easy Problems   |   50   |   23    |   🔄   |   46%    |
+| Complete Easy Problems   |   50   |   21    |   🔄   |   42%    |
 | Complete Medium Problems |  100   |    0    |   ⏳   |    0%    |
 | Complete Hard Problems   |   50   |    0    |   ⏳   |    0%    |
 | Master All Patterns      |   15   |    5    |   🔄   |   33%    |
@@ -559,7 +559,7 @@ I'm on a journey to master Data Structures and Algorithms through consistent pra
 
 <div align="center">
 
-**Made with ❤️ and lots of ☕ by Nikhil Agrahari sir**
+**Made with ❤️ and lots of ☕ by Nikhil Agrahari**
 
 </div>
 
