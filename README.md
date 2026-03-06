@@ -559,7 +559,7 @@ I'm on a journey to master Data Structures and Algorithms through consistent pra
 
 <div align="center">
 
-**Made with ❤️ and lots of ☕ by Nikhil Agrahari**
+**Made with ❤️ and lots of ☕ by Nikhil Agrahari sir**
 
 </div>
 
