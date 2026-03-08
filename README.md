@@ -31,12 +31,12 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 <tr>
 <td align="center" style="background-color: #00B8A9;">
 <h3>🟢 Easy</h3>
-<h1>21</h1>
+<h1>70</h1>
 <p>Problems Solved</p>
 </td>
 <td align="center" style="background-color: #FFA116;">
 <h3>🟡 Medium</h3>
-<h1>0</h1>
+<h1>14</h1>
 <p>Problems Solved</p>
 </td>
 <td align="center" style="background-color: #EF4743;">
@@ -46,7 +46,7 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 </td>
 <td align="center" style="background-color: #FFA116;">
 <h3>📈 Total</h3>
-<h1>21</h1>
+<h1>84</h1>
 <p>Problems Solved</p>
 </td>
 </tr>
@@ -55,9 +55,9 @@ _Passionate Problem Solver | Algorithm Enthusiast | Software Developer_
 ### 📈 Progress Bar
 
 ```
-Overall: ███████░░░░░░░░░░░░░ 21/200 (10.5%)
-Easy:    ██████████████░░░░░░ 21/50  (42%)
-Medium:  ░░░░░░░░░░░░░░░░░░░░ 0/100 (0%)
+Overall: ███████░░░░░░░░░░░░░ 84/200 (42%)
+Easy:    ██████████████░░░░░░ 70/50  (140%)
+Medium:  ░░░░░░░░░░░░░░░░░░░░ 14/100 (14%)
 Hard:    ░░░░░░░░░░░░░░░░░░░░ 0/50   (0%)
 ```
 
@@ -90,7 +90,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 ```
 📦 Leetcode-Practice-Log/
 │
-├── 📂 EASY/                      # 21 Problems ✅
+├── 📂 EASY/                      # 70 Problems ✅
 │   ├── 📄 0001_Two_Sum.py
 │   ├── 📄 0013_Roman_to_Integer.py
 │   ├── 📄 0014_Longest_Common_Prefix.py
@@ -114,7 +114,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 │   ├── 📄 0349_Intersection_of_Arrays.py
 │   └── 📄 0000_WHAT.md
 │
-├── 📂 MEDIUM/                    # 0 Problems
+├── 📂 MEDIUM/                    # 14 Problems
 │   └── 📄 0000_WHAT.md
 │
 ├── 📂 HARD/                      # 0 Problems
@@ -129,7 +129,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 
 <div align="center">
 
-### 🟢 Easy Level Problems (21/50)
+### 🟢 Easy Level Problems (70/50)
 
 <table>
 <thead>
@@ -316,7 +316,7 @@ This comprehensive collection documents my journey in mastering Data Structures 
 
 ---
 
-### 🟡 Medium Level Problems (0/100)
+### 🟡 Medium Level Problems (14/100)
 
 <p align="center">
 <img src="https://img.shields.io/badge/Coming_Soon-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Coming Soon"/>
@@ -349,11 +349,11 @@ This comprehensive collection documents my journey in mastering Data Structures 
 ### 🏆 Overall Progress
 
 ```
-🟢 Easy:    ██████████████░░░░░░ 21/50  (42%)
-🟡 Medium: ░░░░░░░░░░░░░░░░░░░░ 0/100 (0%)
+🟢 Easy:    ██████████████░░░░░░ 70/50  (140%)
+🟡 Medium: ░░░░░░░░░░░░░░░░░░░░ 14/100 (14%)
 🔴 Hard:   ░░░░░░░░░░░░░░░░░░░░ 0/50  (0%)
 ───────────────────────────────────────
-📊 Total:   ██░░░░░░░░░░░░░░░░░░ 21/200 (10.5%)
+📊 Total:   ██░░░░░░░░░░░░░░░░░░ 84/200 (42%)
 ```
 
 ### 📊 Topics Breakdown
@@ -475,8 +475,8 @@ cd HARD
 
 | Goal                     | Target | Current | Status | Progress |
 | :----------------------- | :----: | :-----: | :----: | :------: |
-| Complete Easy Problems   |   50   |   21    |   🔄   |   42%    |
-| Complete Medium Problems |  100   |    0    |   ⏳   |    0%    |
+| Complete Easy Problems   |   50   |   70    |   ✅   |   140%   |
+| Complete Medium Problems |  100   |   14    |   🔄   |    14%   |
 | Complete Hard Problems   |   50   |    0    |   ⏳   |    0%    |
 | Master All Patterns      |   15   |    5    |   🔄   |   33%    |
 | Complete Blind 75        |   75   |    8    |   🔄   |   10%    |
