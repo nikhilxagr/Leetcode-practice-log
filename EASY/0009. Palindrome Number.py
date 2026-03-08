@@ -1,8 +1,6 @@
 # 9. Palindrome Number
-
+# Revised
 # Given an integer x, return true if x is a palindrome, and false otherwise.
-
- 
 
 # Example 1:
 
@@ -21,12 +19,28 @@
 # Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 
+# class Solution:
+#     def isPalindrome(self, x: int) -> bool:
+#         if x < 0:
+#             return False
+    
+#         num_str = str(x)
+#         rev_str = num_str[::-1]
+
+#         return num_str == rev_str
+
+# Another Approach:
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
             return False
-    
-        num_str = str(x)
-        rev_str = num_str[::-1]
-
-        return num_str == rev_str
+        
+        real = x
+        rev_num = 0
+        
+        while x > 0:
+            digit = x % 10
+            rev_num = rev_num * 10 + digit
+            x //= 10
+        
+        return real == rev_num
