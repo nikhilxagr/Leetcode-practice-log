@@ -1,9 +1,5 @@
 # 13. Roman to Integer
-# Easy
-# Topics
-# premium lock icon
-# Companies
-# Hint
+# Revised 
 # Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 # Symbol       Value
@@ -68,7 +64,3 @@ class Solution(object):
     
 sol = Solution()
 print(sol.romanToInt("MCMXCIV"))
-    
-    
-                     
-                
