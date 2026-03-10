@@ -1,5 +1,5 @@
 # Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-
+# Revised 
 # An input string is valid if:
 
 # Open brackets must be closed by the same type of brackets.
@@ -61,3 +61,14 @@ class Solution(object):
                     return False
 
         return len(stack) == 0
+
+# Logic :
+    
+# - Initialize an empty stack to keep track of opening brackets.
+# - Iterate through each character in the input string:
+#   - If the character is an opening bracket ('(', '{', '['), push it onto the stack.
+#   - If the character is a closing bracket (')', '}', ']'):
+#     - Check if the stack is empty. If it is, return False (indicating an invalid string).
+    
+#     - Pop the last opening bracket from the stack and check if it matches the corresponding opening bracket for the current closing bracket. If it doesn't match, return False.
+# - After iterating through all characters, check if the stack is empty. If it is, return True (indicating a valid string); otherwise, return False (indicating an invalid string).
