@@ -1,5 +1,6 @@
 # Q-66. Plus One
 
+#REVISED 
 """
 You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 
@@ -41,11 +42,18 @@ class Solution(object):
         
         for i in range(num-1, -1, -1): 
             
-            if digits[i] < 9:
-                digits[i] = digits[i] + 1
+            if digits[i] < 9:  
+                digits[i] = digits[i] + 1  
                 return digits
+            
             else:
              digits[i] = 0
         
         return [1] + digits
-        
+    
+# ALGORITHM:
+
+# 1. We start iterating from the end of the list of digits.
+# 2. If the current digit is less than 9, we can simply increment it by 1 and return the modified list of digits.
+# 3. If the current digit is 9, we set it to 0 and continue to the next digit to the left.
+# 4. If we finish the loop and all digits were 9, we need to add a new digit '1' at the beginning of the list and return it, since the result would be 100...0 (with as many zeros as there were digits in the original list).
