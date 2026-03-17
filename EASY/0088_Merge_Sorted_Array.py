@@ -1,6 +1,7 @@
 # 88 - Merge Sorted Array
 
-#Revisit
+#Revisit 
+# Revised
 """
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
 
@@ -52,4 +53,15 @@ class Solution(object):
             nums1[k] = nums2[j]
             j -= 1
             k -= 1
-            
+
+# Algorithm:
+
+# 1. Initialize three pointers: `i` for the last element of the first array (nums1), `j` for the last element of the second array (nums2), and `k` for the last position of the merged array (nums1).
+
+# 2. Iterate while both `i` and `j` are greater than or equal to 0:
+#    - Compare the elements at `nums1[i]` and `nums2[j]`.
+#    - If `nums1[i]` is greater, place it at position `k` in `nums1` and decrement `i`.
+#    - Otherwise, place `nums2[j]` at position `k` in `nums1` and decrement `j`.
+#    - Decrement `k` after each placement.
+
+# 3. If there are remaining elements in `nums2` (i.e., `j` is still greater than or equal to 0), copy them into `nums1` at the appropriate positions.
