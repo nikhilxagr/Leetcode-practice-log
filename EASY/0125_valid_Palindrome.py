@@ -55,3 +55,12 @@ class Solution(object):
                 clean += ch
 
         return clean == clean[::-1]
+
+# Revised 
+
+# idea 
+# Ignore non-alphanumeric characters
+# (like spaces, commas, etc.)
+
+# Convert everything to lowercase
+# Check if the string is same forward and backward
