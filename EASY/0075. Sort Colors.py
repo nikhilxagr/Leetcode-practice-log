@@ -16,9 +16,19 @@
 # Output: [0,1,2]
  
  
-class Solution:
-    def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-        return nums.sort()
+# class Solution:
+#     def sortColors(self, nums: List[int]) -> None:
+#         """
+#         Do not return anything, modify nums in-place instead.
+#         """
+#         return nums.sort()
+
+class Solution(object):
+    def sortColors(self, nums):
+        count0 = nums.count(0)
+        count1 = nums.count(1)
+        count2 = nums.count(2)
+
+        nums[:count0] = [0] * count0
+        nums[count0:count0 + count1] = [1] * count1
+        nums[count0 + count1:] = [2] * count2
