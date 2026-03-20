@@ -1,4 +1,6 @@
 # Q-136. Single Number
+
+# revised
 """
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
@@ -38,3 +40,9 @@ class Solution(object):
             result ^= num
         return result
         
+# ALgorithm:
+# 1. Initialize a variable `result` to 0.
+# 2. Iterate through each number `num` in the input list `nums`.
+#     a. For each number, perform a bitwise XOR operation between `result` and `num`, and update `result` with the result of the XOR operation.
+# 3. After iterating through all the numbers, `result` will hold the value of the single number that appears only once in the list.
+# 4. Return the value of `result` as the output.  
