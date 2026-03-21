@@ -1,4 +1,5 @@
 # 162. Find Peak Element
+# revised 
 
 # A peak element is an element that is strictly greater than its neighbors.
 
@@ -34,7 +35,9 @@ class Solution(object):
             if (i == 0 or nums[i] > nums[i-1]) and (i == n-1 or nums[i] > nums[i+1]):
                 return i
  
- 
+# Algorithm:
+# 1. We iterate through the list of numbers, checking each element to see if it is a peak.
+# 2. For each element, we check if it is greater than its left neighbor (or if it is the first element) and if it is greater than its right neighbor (or if it is the last element).
  
         
 # nums = [1,2,3,1]
