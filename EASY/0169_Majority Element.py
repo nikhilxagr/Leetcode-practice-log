@@ -1,4 +1,5 @@
 # 169. Majority Element
+# revised
 
 # Given an array nums of size n, return the majority element.
 
@@ -50,3 +51,8 @@ class Solution(object):
             else:
                 count[num] = 1
         return max(count, key=count.get)
+
+# Algorithm:
+# 1. We create a dictionary to count the occurrences of each element in the list.
+# 2. We iterate through the list of numbers, updating the count for each number in the dictionary
+# 3. Finally, we return the key with the maximum value in the dictionary, which is the majority element.
