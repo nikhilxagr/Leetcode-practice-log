@@ -1,5 +1,6 @@
 # 217. Contains Duplicate
 
+# Revised 
 # Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 # Example
@@ -46,3 +47,11 @@ class Solution(object):
             seen.add(num)
 
         return False
+    
+# Algorithm:
+# 1. Initialize an empty set called `seen` to keep track of the unique numbers encountered in the array.
+# 2. Iterate through each number `num` in the input array `nums`.
+#     a. For each number, check if it is already present in the `seen` set.
+#     b. If it is present, this means we have encountered a duplicate, so return `True`.
+#     c. If it is not present, add the number to the `seen` set.
+# 3. If the loop completes without finding any duplicates, return `False`, indicating that all elements are distinct.
