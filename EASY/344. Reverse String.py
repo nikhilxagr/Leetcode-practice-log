@@ -1,5 +1,6 @@
 # 344. Reverse String
 
+# revised 
 # Write a function that reverses a string. The input string is given as an array of characters s.
 
 # You must do this by modifying the input array in-place with O(1) extra memory.
@@ -31,3 +32,8 @@ class Solution(object):
 
             i += 1
             j -= 1
+
+# Algprithm:
+# 1. We can use the built-in reverse() method to reverse the list in-place.
+# 2. Alternatively, we can use two pointers, one starting at the beginning of the   
+#    list and the other starting at the end. We can swap the elements at these two pointers and then move the pointers towards each other until they meet.
