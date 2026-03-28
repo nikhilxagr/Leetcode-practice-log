@@ -1,6 +1,8 @@
 #Problem:
 # 387. First Unique Character in a String
 
+# Revised 
+
 # Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
 """
@@ -36,24 +38,42 @@ Output: -1
 # If a character’s count is 1, return its index.
 # If no unique character is found, return -1.
 
+# class Solution(object):
+#     def firstUniqChar(self, s):
+#         """
+#         :type s: str
+#         :rtype: int
+#         """
+       
+#         freq = {}
+#         for ch in s:
+#             freq[ch] = freq.get(ch, 0) + 1
+
+#         for i, ch in enumerate(s):
+#             if freq[ch] == 1:
+#                 return i
+
+#         return -1
+    
+# solve = Solution()
+# print(solve.firstUniqChar("leetcode"))
+# print(solve.firstUniqChar("loveleetcode"))
+# print(solve.firstUniqChar("aabb"))
+
+# Another Easy Approach
+
 class Solution(object):
     def firstUniqChar(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
        
-        freq = {}
-        for ch in s:
-            freq[ch] = freq.get(ch, 0) + 1
-
-        for i, ch in enumerate(s):
-            if freq[ch] == 1:
+        for i in range(len(s)):
+            
+            if s.index(s[i]) == s.rindex(s[i]):
+                
                 return i
-
         return -1
     
-solve = Solution()
-print(solve.firstUniqChar("leetcode"))
-print(solve.firstUniqChar("loveleetcode"))
-print(solve.firstUniqChar("aabb"))
+# Algorithm 
+# Loop through the string:
+# For each character, check if its first occurrence index is the same as its last occurrence index.
+# If they are the same, it means the character is unique, and we return its index.
+# If we finish the loop without finding a unique character, we return -1.
