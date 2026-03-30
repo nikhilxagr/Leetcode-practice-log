@@ -1,5 +1,6 @@
 # 485. Max Consecutive Ones
 
+# revised 
 # Given a binary array nums, return the maximum number of consecutive 1's in the array.
 
  
@@ -13,6 +14,15 @@
 
 # Input: nums = [1,0,1,1,0,1]
 # Output: 2
+
+# Algorithm:
+# 1. Initialize two variables, count and ans, to keep track of the current count of consecutive 1's and the maximum count found so far.
+# 2. Iterate through each element in the input array nums.
+# 3. If the current element is 1, increment the count variable and update ans with the maximum of count and ans.
+# 4. If the current element is 0, reset the count variable to 0.
+# 5. After the loop, return the value of ans, which will be the maximum
+# number of consecutive 1's in the array.
+
 
 class Solution(object):
     def findMaxConsecutiveOnes(self, nums):
@@ -32,7 +42,6 @@ class Solution(object):
                 count = 0
         return ans        
         
-
   
 # Test Case   
         
