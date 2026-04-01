@@ -1,5 +1,5 @@
 # 682. Baseball Game
-
+# revised 
 # You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.
 
 # You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:
@@ -68,3 +68,13 @@ class Solution:
             else:
                 record.append(int(op))
         return sum(record)
+
+# Algorithm
+# 1. Initialize an empty list called record to keep track of the scores.
+# 2. Iterate through each operation in the input list operations.
+# 3. For each operation, perform the following actions based on its type:
+#    - If the operation is 'C', remove the last score from the record using pop().
+#    - If the operation is 'D', calculate the double of the last score and append it to the record.
+#    - If the operation is '+', calculate the sum of the last two scores and append it to the record.
+#    - If the operation is an integer (represented as a string), convert it to an integer and append it to the record.
+# 4. After processing all operations, calculate the total sum of the scores in the record using the sum() function and return it as the final result.
