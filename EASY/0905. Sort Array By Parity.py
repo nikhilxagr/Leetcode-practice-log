@@ -1,5 +1,5 @@
 # 905. Sort Array By Parity
-
+# Revised 
 # Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
 
 # Return any array that satisfies this condition.
@@ -29,3 +29,10 @@ class Solution(object):
             else:
                 odd.append(num)
         return even + odd
+    
+# Algorithm
+# 1. Initialize two empty lists, even and odd, to store the even and odd integers respectively.
+# 2. Iterate through each integer num in the input list nums.
+#     a. If num is even (i.e., num % 2 == 0), append it to the even list.
+#     b. If num is odd, append it to the odd list.
+# 3. After the loop, concatenate the even and odd lists and return the resulting list, which will have all even integers followed by all odd integers.
