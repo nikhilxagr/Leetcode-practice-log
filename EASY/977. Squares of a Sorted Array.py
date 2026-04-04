@@ -1,5 +1,5 @@
 # 977. Squares of a Sorted Array
-
+# revised
 # Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 
 # Example 1:
@@ -17,6 +17,9 @@
 
 
 
+from numpy import sort
+
+
 class Solution(object):
     def sortedSquares(self, nums):
       
@@ -30,4 +33,9 @@ class Solution(object):
         return result
             
         
-            
+# # Algorithm:
+# 1. Initialize an empty list `result` to store the squares of the numbers.
+# 2. Iterate through each number `num` in the input list `nums`:
+#    a. Calculate the square of `num` using the `pow` function and append it to the `result` list.
+# 3. After the loop, sort the `result` list in non-decreasing order using the `sort` method.
+# 4. Return the sorted `result` list, which contains the squares of the numbers in non-decreasing order.
