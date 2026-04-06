@@ -1,5 +1,5 @@
 # 1480. Running Sum of 1d Array
-
+# revised
 # Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
 # Return the running sum of nums.
@@ -41,3 +41,9 @@ sol = Solution()
 print(sol.runningSum([1,2,3,4])) 
 print(sol.runningSum([1,1,1,1,1]))
         
+# Algorithm:
+# 1. Initialize an empty list ans and append the first element of nums to it.
+# 2. Iterate through nums starting from the second element (index 1) to the end of the list.
+# 3. For each element at index i, calculate the running sum by adding the previous
+#    running sum (ans[i-1]) to the current element (nums[i]) and append the result to ans.
+# 4. Return the list ans containing the running sums.
