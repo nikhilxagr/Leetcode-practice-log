@@ -1,5 +1,7 @@
 # 1486. XOR Operation in an Array
 
+# revised
+
 # You are given an integer n and an integer start.
 
 # Define an array nums where nums[i] = start + 2 * i (0-indexed) and n == nums.length.
@@ -31,3 +33,10 @@ class Solution(object):
         for i in range(n):
             ans ^= start + 2 * i
         return ans
+    
+# Algorithm:
+# 1. Initialize a variable ans to 0 to store the cumulative XOR result.
+# 2. Iterate through the range of n (from 0 to n-1).
+# 3. For each index i, calculate the value of nums[i] as start + 2 * i and perform a bitwise XOR operation with ans.
+# 4. After the loop, return the final value of ans, which is the XOR
+#    of all elements in the array nums.
