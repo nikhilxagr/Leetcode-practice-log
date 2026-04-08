@@ -1,5 +1,5 @@
 # 1550. Three Consecutive Odds
-
+# revised 
 # Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
 
 # Example 1:
@@ -33,3 +33,11 @@ class Solution(object):
             else:
                 Count = 0
         return False
+
+# Algorithm:
+# 1. Initialize a variable Count to 0 to keep track of the number of consecutive odd numbers.
+# 2. Iterate through each number in the input array arr.
+# 3. For each number, check if it is odd (i.e., num % 2 != 0).
+# 4. If the number is odd, increment the Count by 1. If Count reaches 3, return True, indicating that three consecutive odd numbers have been found.
+# 5. If the number is even, reset the Count to 0, as the sequence of consecutive odd numbers is broken.
+# 6. If the loop completes without finding three consecutive odd numbers, return False.
