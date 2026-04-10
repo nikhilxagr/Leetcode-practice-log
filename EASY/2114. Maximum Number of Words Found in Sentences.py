@@ -1,5 +1,6 @@
 # 2114. Maximum Number of Words Found in Sentences
 
+# Revised
 # A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
 
 # You are given an array of strings sentences, where each sentences[i] represents a single sentence.
@@ -42,3 +43,11 @@ class Solution(object):
 
 solve = Solution()
 print(solve.mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
+
+# Algorithm:
+# 1. Initialize a variable `max_words` to 0 to keep track of the maximum number of words found in any sentence.
+# 2. Iterate through each sentence in the input list `sentences`:
+#    a. Split the sentence into words using the `split()` method, which will return a list of words.
+#    b. Count the number of words by taking the length of the list returned by `split()`.
+#    c. If the word count for the current sentence is greater than `max_words`, update `max_words` with the new count.
+# 3. After iterating through all sentences, return the value of `max_words`, which will be the maximum number of words found in any single sentence.
