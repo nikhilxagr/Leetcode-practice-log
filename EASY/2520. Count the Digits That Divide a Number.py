@@ -1,4 +1,6 @@
-# Problem
+# Problem 
+
+# revised
 
 # 2520. Count the Digits That Divide a Number
 
@@ -33,13 +35,17 @@ Explanation: 1248 is divisible by all of its digits, hence the answer is 4.
 
 class Solution(object):
     def countDigits(self, num):
+        
         count = 0
+        
         digits = str(num)
 
         for d in digits:
+            
             digit = int(d)
             if digit == 0:
                 continue
+            
             if num % digit == 0:
                 count += 1
 
@@ -47,4 +53,14 @@ class Solution(object):
 
 sol = Solution()    
 print(sol.countDigits(7))   
-print(sol.countDigits(121))    
+print(sol.countDigits(121))
+print(sol.countDigits(1248))
+
+# Algorithm:
+# 1. Convert the number to a string to access each digit.
+# 2. Initialize a count variable to keep track of the number of digits that divide the number.
+# 3. Iterate through each character (digit) in the string representation of the number.
+# 4. Convert the character back to an integer.
+# 5. If the digit is zero, skip it to avoid division by zero.
+# 6. Check if the original number is divisible by the digit. If it is, increment the count.
+# 7. Return the final count after iterating through all digits.
