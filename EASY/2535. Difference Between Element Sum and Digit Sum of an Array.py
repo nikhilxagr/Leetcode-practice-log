@@ -1,5 +1,5 @@
 # 2535. Difference Between Element Sum and Digit Sum of an Array
-
+# revised 
 # You are given a positive integer array nums.
 
 # The element sum is the sum of all the elements in nums.
@@ -47,3 +47,9 @@ class Solution(object):
                 num //= 10
                 
         return abs(elem_sum - digit_sum)
+    
+# Algorithm:
+# 1. Calculate the element sum by summing all the elements in the array.
+# 2. Calculate the digit sum by iterating through each number in the array, extracting its digits, and summing them up.
+# 3. Return the absolute difference between the element sum and the digit sum.
+
