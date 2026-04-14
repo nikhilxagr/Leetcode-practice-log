@@ -1,5 +1,5 @@
 # 2652. Sum Multiples
-
+# revised 
 # Given a positive integer n, find the sum of all integers in the range [1, n] inclusive that are divisible by 3, 5, or 7.
 
 # Return an integer denoting the sum of all numbers in the given range satisfying the constraint.
@@ -38,3 +38,11 @@ class Solution(object):
         
 sol = Solution()
 print(sol.sumOfMultiples(7))
+
+
+# Algorithm:
+# 1. Initialize a variable `total_sum` to 0 to keep track of the sum of multiples.
+# 2. Iterate through all integers from 1 to n (inclusive). 
+# 3. For each integer i, check if it is divisible by 3, 5, or 7 using the modulus operator (%).
+# 4. If i is divisible by any of these numbers, add it to `total_sum`.
+# 5. After the loop, return the value of `total_sum` as the result.
