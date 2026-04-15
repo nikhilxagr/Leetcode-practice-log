@@ -47,3 +47,10 @@ class Solution(object):
 
 sol = Solution()
 print(sol.numberOfEmployeesWhoMetTarget([0,1,2,3,4], 2)) 
+
+# Algorithm:
+# 1. Initialize a variable count to 0 to keep track of the number of employees who met the target.
+# 2. Iterate through each hour in the hours list.
+# 3. For each hour, check if it is greater than or equal to the target.
+# 4. If it is, increment the count by 1.
+# 5. After iterating through all the hours, return the count as the result.
