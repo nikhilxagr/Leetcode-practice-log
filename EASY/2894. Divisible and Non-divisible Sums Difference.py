@@ -1,5 +1,7 @@
 # 2894. Divisible and Non-divisible Sums Difference
 
+# Revised
+
 # You are given positive integers n and m.
 
 # Define two integers as follows:
@@ -59,3 +61,10 @@ class Solution(object):
                 num1 += i
         
         return num1 - num2
+    
+# Algorithm:
+# 1. Initialize two variables num1 and num2 to 0 to keep track of the sums of non-divisible and divisible integers, respectively.
+# 2. Iterate through each integer i from 1 to n (inclusive).
+# 3. For each integer i, check if it is divisible by m.
+# 4. If it is divisible, add it to num2; otherwise, add it to num1.
+# 5. After iterating through all integers, return the difference num1 - num2 as the result.
