@@ -1,5 +1,7 @@
 # 3019. Number of Changing Keys
 
+# revised 
+
 # You are given a 0-indexed string s typed by a user. Changing a key is defined as using a key different from the last used key. For example, s = "ab" has a change of a key while s = "bBBb" does not have any.
 
 # Return the number of times the user had to change the key.
@@ -36,7 +38,18 @@ class Solution(object):
         :rtype: int
         """
         count = 0
+        
         for i in range(1, len(s)):
+            
             if s[i].lower() != s[i - 1].lower():
+                
                 count += 1
+                
         return count
+    
+# Algorithm:
+# 1. Initialize a variable `count` to 0 to keep track of the number of key changes.
+# 2. Iterate through the string `s` starting from the second character (index 1) to the end of the string.
+# 3. For each character, compare it with the previous character (index i - 1) after converting both characters to lowercase using the `lower()` method.
+# 4. If the lowercase versions of the current character and the previous character are different, it means there is a change of key, so increment the `count` variable by 1.
+# 5. After the loop, return the value of `count` which represents the total number of key changes.
