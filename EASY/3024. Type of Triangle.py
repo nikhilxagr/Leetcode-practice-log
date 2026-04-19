@@ -1,5 +1,6 @@
 # 3024. Type of Triangle
 
+# revised 
 # You are given a 0-indexed integer array nums of size 3 which can form the sides of a triangle.
 
 # A triangle is called equilateral if it has all sides of equal length.
@@ -45,3 +46,11 @@ class Solution(object):
         
 sol = Solution()
 print(sol.triangleType([3, 3, 3]))
+
+# Algorithm:
+# 1. Sort the input list `nums` to ensure that the sides are in non-decreasing order.
+# 2. Assign the sorted sides to variables `a`, `b`, and `c`.
+# 3. Check if the sum of the two smaller sides `a` and `b` is less than or equal to the largest side `c`. If this condition is true, it means that the sides cannot form a triangle, so return "none".
+# 4. If all sides are equal (`a == b == c`), return "equilateral".
+# 5. If exactly two sides are equal (i.e., `a == b` or `b == c` or `a == c`), return "isosceles".
+# 6. If none of the above conditions are met, it means all sides are of different lengths, so return "scalene".
