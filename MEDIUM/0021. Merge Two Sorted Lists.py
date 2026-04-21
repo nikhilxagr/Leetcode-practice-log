@@ -1,5 +1,6 @@
 # 21. Merge Two Sorted Lists
 
+# Revised
 # You are given the heads of two sorted linked lists list1 and list2.
 
 # Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
@@ -44,3 +45,11 @@ class Solution(object):
         curr.next = list1 or list2
         return temp.next
         
+# Algorithm:
+# 1. Create a temporary node to hold the merged list and a current pointer to traverse it.
+# 2. While both list1 and list2 are not empty:
+#    - Compare the values of the current nodes in both lists.
+#    - Attach the node with the smaller value to the merged list.
+#    - Move the pointer of the list from which the node was attached.
+# 3. After one of the lists is exhausted, attach the remaining nodes from the other list to the merged list.
+# 4. Return the head of the merged list.
