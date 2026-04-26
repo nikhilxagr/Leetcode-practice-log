@@ -1,5 +1,6 @@
 # 33. Search in Rotated Sorted Array
 
+# revised 
 # There is an integer array nums sorted in ascending order (with distinct values).
 
 # Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2].
@@ -46,3 +47,9 @@ class Solution(object):
 #         break
 # else:    
 #     print(-1)
+
+# Algorithm:
+# 1. Initialize an answer variable to -1 to store the index of the target if found.
+# 2. Iterate through the nums array using a for loop:
+#    a. If the current element is equal to the target, return its index.    
+# 3. If the loop completes without finding the target, return -1, indicating that the target is not in the array.
