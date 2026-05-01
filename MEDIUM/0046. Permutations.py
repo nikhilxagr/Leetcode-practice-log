@@ -2,7 +2,7 @@
 
 # Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
- 
+# revised 
 
 # Example 1:
 
@@ -37,3 +37,10 @@ class Solution:
         
         backtrack()
         return ans
+    
+# Algorithm :
+# 1. We define a helper function `backtrack` that takes an optional parameter `start` which indicates the current index we are working on.
+# 2. If `start` is equal to the length of `nums`, it means we have generated a complete permutation, and we append a copy of `nums` to the answer list `ans`.
+# 3. We iterate through the indices from `start` to the end of the list, swapping the current index with the `start` index to generate a new permutation.
+# 4. We then call `backtrack` recursively with `start + 1` to continue generating permutations for the next index.
+# 5. After the recursive call, we swap back the elements to restore the original order (backtracking) before the next iteration.
