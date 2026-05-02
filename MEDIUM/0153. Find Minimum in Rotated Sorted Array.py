@@ -1,5 +1,7 @@
 # 153. Find Minimum in Rotated Sorted Array
 
+# revised 
+
 # Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
 
 # [4,5,6,7,0,1,2] if it was rotated 4 times.
@@ -30,11 +32,9 @@
  
 class Solution(object):
     def findMin(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+       
         ans = nums[0]
+        
         for i in range(1, len(nums)):
             if nums[i] < ans:
                 ans = nums[i] 
@@ -43,9 +43,9 @@ class Solution(object):
  
  
  
-# nums = [3,4,5,1,2]
-# ans = nums[0]
-# for i in range(1, len(nums)):
-#     if nums[i] < ans:
-#         ans = nums[i] 
-# print(ans)
+# Algorithm:
+# 1. Initialize a variable ans to the first element of the input array nums, which will hold the minimum value found.
+# 2. Iterate through the input array starting from the second element (index 1) to the end of the array.
+# 3. For each element nums[i], compare it with the current minimum value stored in ans.
+# 4. If nums[i] is less than ans, update ans to be equal to nums[i], as it is the new minimum value found.
+# 5. After iterating through all elements, return ans as the result, which will be the minimum element in the rotated sorted array.
