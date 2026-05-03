@@ -1,5 +1,7 @@
 # 238. Product of Array Except Self
 
+#revised 
+
 # Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
 # The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
@@ -41,3 +43,15 @@ class Solution(object):
             right_prod *= nums[i]
 
         return ans
+    
+# Algorithm:
+# 1. Initialize an array ans of the same length as nums to store the final results.
+# 2. Use a variable left_prod to keep track of the product of all elements to the left of the current index. Initialize it to 1.
+# 3. Iterate through the nums array from left to right:
+#    a. For each index i, set ans[i] to left_prod (the product of all elements to the left of i).
+#    b. Update left_prod by multiplying it with nums[i] to include the current element for the next iteration.
+# 4. Use a variable right_prod to keep track of the product of all elements to the right of the current index. Initialize it to 1.
+# 5. Iterate through the nums array from right to left:
+#    a. For each index i, multiply ans[i] by right_prod (the product of all elements to the right of i).
+#    b. Update right_prod by multiplying it with nums[i] to include the current element for the next iteration.
+# 6. Return the ans array, which now contains the product of all elements except itself for each index.
