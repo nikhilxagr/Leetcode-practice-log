@@ -1,5 +1,6 @@
 # 38. Count and Say
 
+#revised 
 # The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
 
 # countAndSay(1) = "1"
@@ -54,3 +55,8 @@ class Solution(object):
         ans += str(count) + prev[-1]
         
         return ans
+    
+# Algorithm in short :
+# 1. Base case: if n == 1, return "1"
+# 2. Recursive case: get the (n-1)th element and apply run-length encoding
+# 3. For each group of consecutive identical characters, append the count and the character to the result
