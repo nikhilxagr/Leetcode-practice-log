@@ -1,5 +1,6 @@
 # 912. Sort an Array
 
+# revised 
 # Given an array of integers nums, sort the array in ascending order and return it.
 
 # You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.
@@ -49,3 +50,9 @@ class Solution(object):
             heapify(i, 0)
 
         return nums
+
+# Algorithm:
+# 1. Build a Max Heap from the input array.
+# 2. Swap the root of the Max Heap (the largest element) with the last element of the heap.
+# 3. Reduce the size of the heap by one and heapify the root element to maintain the Max Heap property.
+# 4. Repeat steps 2 and 3 until the heap is empty.
