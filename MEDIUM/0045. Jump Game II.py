@@ -1,5 +1,7 @@
 # 45. Jump Game II
 
+# revised 
+
 # You are given a 0-indexed array of integers nums of length n. You are initially positioned at index 0.
 
 # Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at index i, you can jump to any index (i + j) where:
@@ -36,3 +38,8 @@ class Solution(object):
                 current_end = farthest
 
         return jumps
+    
+# Algorithm :
+# 1. Keep track of the farthest index that can be reached with the current number of jumps.
+# 2. When the current index reaches the end of the range for the current number of jumps, increment the jump count and update the range.
+# Time complexity: O(n) where n is the length of the input array nums.
