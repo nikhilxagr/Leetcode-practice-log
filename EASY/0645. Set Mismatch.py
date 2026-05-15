@@ -1,5 +1,7 @@
 # 645. Set Mismatch
 
+# REVISED 
+
 # You have a set of integers s, which originally contains all the numbers from 1 to n. Unfortunately, due to some error, one of the numbers in s got duplicated to another number in the set, which results in repetition of one number and loss of another number.
 
 # You are given an integer array nums representing the data status of this set after the error.
@@ -43,3 +45,12 @@ class Solution(object):
                 break
         
         return [duplicate, missing]
+    
+# Algorithm - 
+# 1. Initialize an empty set to keep track of seen numbers, and variables for duplicate and missing numbers.
+# 2. Iterate through the input array nums:
+#    - If the current number is already in the set, it is the duplicate number. Store it in the duplicate variable.
+#    - Otherwise, add the current number to the set.
+# 3. After processing all numbers, iterate through the range from 1 to n:
+#    - If a number is not found in the set, it is the missing number. Store it in the missing variable and break the loop.
+# 4. Return the duplicate and missing numbers as a list.
