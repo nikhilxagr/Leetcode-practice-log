@@ -1,5 +1,5 @@
 # 234. Palindrome Linked List
-
+# revised 
 # Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 
  
@@ -49,3 +49,8 @@ class Solution(object):
             right = right.next
 
         return True
+    
+# Algorithm :
+# 1. Use the fast and slow pointer technique to find the middle of the linked list.
+# 2. Reverse the second half of the linked list.
+# 3. Compare the first half and the reversed second half of the linked list.
