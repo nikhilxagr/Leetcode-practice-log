@@ -2,7 +2,7 @@
 # You may assume that each input would have exactly one solution, and you may not use the same element twice.
 # You can return the answer in any order.
 
-
+# revised 
 # Example 1:
 
 # Input: nums = [2,7,11,15], target = 9
@@ -24,19 +24,7 @@ class Solution(object):
             for j in range(i , len(nums)):
                 if nums[i] + nums[j] == target and i != j :
                     return [i,j]
-
-
-
-
-
-# nums = [3,3]
-# target = 6
-
-# for i in range(0,len(nums)):
-#     for j in range(i , len(nums)):
-#         if nums[i] + nums[j] == target and i != j :
-#             print([i,j])
-            
+      
 
 # Another Way 
 
