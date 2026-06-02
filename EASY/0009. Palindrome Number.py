@@ -44,3 +44,9 @@ class Solution:
             x //= 10
         
         return real == rev_num
+    
+# Algorithm in short:
+# 1. We first check if the number is negative. If it is, we return False since negative numbers cannot be palindromes.
+# 2. We store the original number in a variable called real and initialize rev_num to 0, which will hold the reversed number.
+# 3. We use a while loop to reverse the number. In each iteration, we extract the last digit of x using x % 10 and add it to rev_num after shifting rev_num left by one digit (rev_num * 10). We then remove the last digit from x using integer division (x //= 10).
+# 4. Finally, we compare the original number (real) with the reversed number (rev_num). If they are equal, we return True, indicating that the number is a palindrome; otherwise, we return False.
