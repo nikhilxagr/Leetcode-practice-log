@@ -1,5 +1,5 @@
 # 283. Move  Zeroes
-
+# revised
 # Given an integer array nums,  all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
 # Note that you must do this in-place without making a copy of the array.
@@ -44,6 +44,9 @@ class Solution(object):
             else :
                 arr2.append(num)
         nums[:]= arr1 + arr2
-        return nums            
-                                        
-                  
+        return nums    
+    
+# Algorithm in short:
+# 1. Create two empty lists, arr1 and arr2.
+# 2. Iterate through nums; push non-zeros into arr1 and zeros into arr2.
+# 3. Overwrite nums with arr1 + arr2 to move zeros to the end in order.
