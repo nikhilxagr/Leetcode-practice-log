@@ -64,3 +64,11 @@ class Solution(object):
     
 sol = Solution()
 print(sol.romanToInt("MCMXCIV"))
+
+# Algorithm
+
+# Traverse the Roman numeral from left to right.
+# Normally, add each symbol's value to the total.
+# If a smaller value appears before a larger value, it represents subtraction (e.g., IV = 4, IX = 9).
+# When the current value is greater than the previous value, adjust the total to account for subtraction.
+# Continue until all symbols are processed and return the total.
