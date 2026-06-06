@@ -47,3 +47,9 @@ class Solution:
                 i += 1
         return len(nums)
     
+# ALgorithm:
+# 1. Initialize a variable write_index to 1, which will keep track of the position where the next unique element should be written.
+# 2. Iterate through the array starting from the second element (index 1) to the end of the array.
+# 3. For each element, compare it with the previous element (nums[i - 1]).
+# 4. If the current element is different from the previous element, it means it's a unique element. Write this unique element to the position indicated by write_index and increment write_index by 1.
+# 5. After the loop, write_index will indicate the number of unique elements in the array, and the first write_index elements of the array will contain the unique elements in sorted order.
