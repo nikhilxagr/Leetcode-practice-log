@@ -6,6 +6,7 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
 Return k
 """
+# Revised 
 
 # Example 1:
 
@@ -14,6 +15,9 @@ Return k
 # Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 # It does not matter what you leave beyond the returned k (hence they are underscores).
 
+
+
+from ast import List
 
 
 class Solution(object):
@@ -33,3 +37,15 @@ class Solution(object):
 
         return first_index
 
+
+# Another solution:
+
+# class Solution:
+#     def searchInsert(self, nums: List[int], target: int) -> int:
+
+#         for i in range(len(nums)):
+#             if nums[i] >= target:
+#                 return i
+
+#         return len(nums)
+        
