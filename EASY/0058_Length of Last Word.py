@@ -32,15 +32,11 @@ class Solution(object):
         last_word = words[-1]      
         length = len(last_word)    
         
-        return length    
+        return length     
   
     
-# Split = s.split() divides the string into a list of words based on spaces.
-    
-    
-# words[-1] accesses the last word in the list.
-    
-    
-# len(last_word) calculates the length of the last word.
-    
-    
+# ALgorithm:
+# 1. Split the input string s into a list of words using the split() method, which automatically handles multiple spaces.
+# 2. Access the last word in the list using words[-1].
+# 3. Calculate the length of the last word using the len() function.
+# 4. Return the length of the last word as the final result.
