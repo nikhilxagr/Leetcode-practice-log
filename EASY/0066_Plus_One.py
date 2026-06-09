@@ -34,16 +34,14 @@ Thus, the result should be [1,0].
 
 class Solution(object):
     def plusOne(self, digits):
-        """
-        :type digits: List[int]
-        :rtype: List[int]
-        """
+        
         num = len(digits)
         
         for i in range(num-1, -1, -1): 
             
             if digits[i] < 9:  
                 digits[i] = digits[i] + 1  
+                
                 return digits
             
             else:
