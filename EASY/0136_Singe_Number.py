@@ -31,18 +31,16 @@ Output: 1
 
 class Solution(object):
     def singleNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        result = 0
+        ans = 0
+        
         for num in nums:
-            result ^= num
-        return result
+            ans ^= num
+            
+        return ans
         
 # ALgorithm:
-# 1. Initialize a variable `result` to 0.
+# 1. Initialize a variable `ans` to 0.
 # 2. Iterate through each number `num` in the input list `nums`.
-#     a. For each number, perform a bitwise XOR operation between `result` and `num`, and update `result` with the result of the XOR operation.
-# 3. After iterating through all the numbers, `result` will hold the value of the single number that appears only once in the list.
-# 4. Return the value of `result` as the output.  
+#     a. For each number, perform a bitwise XOR operation between `ans` and `num`, and update `ans` with the result of the XOR operation.
+# 3. After iterating through all the numbers, `ans` will hold the value of the single number that appears only once in the list.
+# 4. Return the value of `ans` as the output.  
