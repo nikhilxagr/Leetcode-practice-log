@@ -1,5 +1,5 @@
 # 169. Majority Element
-# revised
+# revised again
 
 # Given an array nums of size n, return the majority element.
 
@@ -21,17 +21,16 @@ Output: 2
 
 # class Solution(object):
 #     def majorityElement(self, nums):
-#         """
-#         :type nums: List[int]
-#         :rtype: int
-#         """
+#        
 #         count = {}
+
 #         for num in nums:
 #             if num in count:
 #                 count[num] += 1
 #             else:
 #                 count[num] = 1
 #             if count[num] > len(nums) // 2:
+
 #                 return num
             
             
@@ -39,10 +38,7 @@ Output: 2
             
 class Solution(object):
     def majorityElement(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+        
         count = {}
         
         for num in nums:
