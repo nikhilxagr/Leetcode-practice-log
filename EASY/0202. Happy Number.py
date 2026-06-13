@@ -1,5 +1,5 @@
 # 202. Happy Number
-
+#revised 
 # Write an algorithm to determine if a number n is happy.
 
 # A happy number is a number defined by the following process:
@@ -48,3 +48,8 @@ class Solution:
             n = get_next(n) 
 
         return n == 1
+    
+# Algorithm:
+# 1. We define a helper function `get_next` that calculates the sum of the squares of the digits of a number.
+# 2. We use a set `seen_nums` to keep track of the numbers we have already seen in the process.
+# 3. We repeatedly calculate the next number using `get_next` until we either reach 1 (in which case we return True) or encounter a number we've already seen (in which case we return False).
