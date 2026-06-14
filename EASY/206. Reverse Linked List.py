@@ -1,6 +1,6 @@
 # Given the head of a singly linked list, reverse the list, and return the reversed list.
 
- 
+# Revised the problem statement to be more clear and concise.
 
 # Example 1:
 
@@ -33,3 +33,13 @@ class Solution(object):
             curr = next_node
         
         return prev
+    
+# Algorithm :
+# 1. Initialize two pointers, `prev` as None and `curr` as the head of the linked list.
+# 2. Iterate through the linked list until `curr` is None:
+#    a. Store the next node of `curr` in a variable `next_node`.
+#    b. Reverse the link by setting `curr.next` to `prev`.
+#    c. Move the `prev` pointer to `curr`.
+#    d. Move the `curr` pointer to `next_node`.
+# 3. After the loop ends, `prev` will be pointing to the new head of the reversed linked list.
+
