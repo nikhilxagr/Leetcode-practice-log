@@ -1,5 +1,5 @@
 # 268. Missing Number
-
+# revised 
 # Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 
 # Example
@@ -38,3 +38,9 @@ class Solution(object):
         actual_sum = sum(nums)           
         missing_num = approx_sum - actual_sum  
         return missing_num
+    
+# Algorithm:
+# 1. Calculate the length of the input array nums and store it in variable n.
+# 2. Calculate the approximate sum of the first n natural numbers using the formula n * (n + 1) // 2 and store it in variable approx_sum.
+# 3. Calculate the actual sum of the elements in the input array nums using the built-in sum() function and store it in variable actual_sum.
+# 4. Calculate the missing number by subtracting actual_sum from approx_sum and store it in variable missing_num.
