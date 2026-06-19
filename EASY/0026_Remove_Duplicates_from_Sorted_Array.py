@@ -37,6 +37,9 @@ The first k elements of nums should contain the unique numbers in sorted order. 
 
 
 # SOlve with pop method
+from ast import List
+
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i = 0
@@ -53,3 +56,29 @@ class Solution:
 # 3. For each element, compare it with the previous element (nums[i - 1]).
 # 4. If the current element is different from the previous element, it means it's a unique element. Write this unique element to the position indicated by write_index and increment write_index by 1.
 # 5. After the loop, write_index will indicate the number of unique elements in the array, and the first write_index elements of the array will contain the unique elements in sorted order.
+
+
+
+# Solve using 2 pointers
+class Solution(object):
+    def removeDuplicates(self, nums):
+        if not nums:
+            return 0
+
+        low = 0  # Pointer for the position of the last unique element
+        high = 1  # Pointer for traversing the array
+        result = 1  # Count of unique elements
+        
+        while high < len(nums):
+            
+            if nums[low] != nums[high]:
+                low += 1
+                
+                nums[low] = nums[high]
+                result += 1
+                
+            high += 1
+            
+        return result
+    
+# Approach - use two pointers, one for the current position and one for the next unique element. Iterate through the array, and whenever a new unique element is found, move it to the next position indicated by the first pointer. Finally, return the count of unique elements.
