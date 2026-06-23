@@ -1,5 +1,7 @@
 # 1752. Check if Array Is Sorted and Rotated
 
+
+# revised 
 # Given an array nums, return true if the array was originally sorted in non-decreasing order, then rotated some number of positions (including zero). Otherwise, return false.
 
 # There may be duplicates in the original array.
@@ -37,3 +39,5 @@ class Solution(object):
                 return False
                 
         return True
+
+# Approach- use a counter to count the number of times the current element is greater than the next element in the array. If this count exceeds 1, return False, indicating that the array is not sorted and rotated. Otherwise, return True.
