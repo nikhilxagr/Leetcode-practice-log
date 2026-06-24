@@ -1,5 +1,6 @@
 # 1822. Sign of the Product of an Array
 
+# revised 
 # Implement a function signFunc(x) that returns:
 
 # 1 if x is positive.
@@ -49,3 +50,4 @@ class Solution(object):
         else:
             return -1
         
+# Approach- use a counter to count the number of negative numbers in the array. If there is any zero in the array, return 0. If the count of negative numbers is even, return 1 (positive product), otherwise return -1 (negative product).
