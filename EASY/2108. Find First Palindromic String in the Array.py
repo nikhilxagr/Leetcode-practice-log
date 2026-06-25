@@ -1,5 +1,7 @@
 # 2108. Find First Palindromic String in the Array
 
+# revised 
+
 # Given an array of strings words, return the first palindromic string in the array. If there is no such string, return an empty string "".
 
 # A string is palindromic if it reads the same forward and backward.
@@ -46,3 +48,7 @@ sol = Solution()
 print(sol.firstPalindrome(["abc","car","ada","racecar","cool"]))
 
 
+# Approach - 
+# we iterate through each word in the input list `words`.
+# For each word, we check if it is a palindrome by comparing the word to its reverse .
+# If we find a palindromic word, we return it immediately. 
