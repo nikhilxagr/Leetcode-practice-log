@@ -1,5 +1,7 @@
 # 2942. Find Words Containing Character
 
+#Revised 
+
 # You are given a 0-indexed array of strings words and a character x.
 
 # Return an array of indices representing the words that contain the character x.
@@ -45,3 +47,5 @@ class Solution(object):
     
 Sol = Solution()
 print(Sol.findWordsContaining(["leet","code"], "e"))
+
+# Approach - We can iterate through the array and check if the character is present in the word or not. If it is present then we can append the index to the result list. Finally, we can return the result list.
