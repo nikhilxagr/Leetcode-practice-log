@@ -1,5 +1,7 @@
 # 657. Robot Return to Origin
-# revised 
+
+# revised the problem statement and added the solution with an approach.
+
 # There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.
 
 # You are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).
@@ -38,13 +40,4 @@ class Solution:
 
         return x == 0 and y == 0
     
-# Algorithm:
-# 1. Initialize two variables, x and y, to keep track of the robot's position on the 2D plane. Start both at 0.
-# 2. Iterate through each move in the input string moves.
-# 3. For each move, update the x and y coordinates based on the direction of the move:
-#    - If the move is 'R', increment x by 1.    
-#    - If the move is 'L', decrement x by 1.
-#    - If the move is 'U', increment y by 1.
-#    - If the move is 'D', decrement y by 1.
-# 4. After processing all moves, check if the robot has returned to the origin by verifying if both x and y are equal to 0.
-# 5. Return true if the robot is at the origin, otherwise return false.
+# Approach - in this approach we will use a dictionary to keep track of the moves and their corresponding changes in position. We will iterate through the moves string and update the position accordingly. Finally, we will check if the final position is (0, 0).
