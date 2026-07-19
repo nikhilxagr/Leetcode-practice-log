@@ -28,4 +28,9 @@ class Solution(object):
 
         return i == len(s)
     
-# Approach in Short : Use two pointers to traverse both strings and check if all characters of s appear in t in the same order.
+# Approach :
+# 1. Use two pointers, one for each string.
+# 2. Iterate through both strings, comparing characters.
+# 3. If characters match, move the pointer for s forward.
+# 4. Always move the pointer for t forward.
+# 5. If the pointer for s reaches the end of s, it means all characters of s have been found in t in order, so return True. Otherwise, return False.
