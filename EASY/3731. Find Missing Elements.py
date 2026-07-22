@@ -51,3 +51,27 @@ class Solution(object):
                 miss.append(i)
 
         return miss
+    
+    
+# Another way to solve this problem 
+class Solution:
+    def findMissingElements(self, nums):
+        
+        # Find the minimum and maximum values in the nums array
+        
+        min_num = min(nums)
+        max_num = max(nums)
+
+        # Create a set of all numbers in the range from min_num to max_num
+        
+        full_Set = set(range(min_num, max_num + 1))
+
+        # Create a set from the nums array
+        
+        nums_set = set(nums)
+
+        # subtracting nums_set from full_Set
+        
+        missing_elements = sorted(full_Set - nums_set)
+
+        return missing_elements
