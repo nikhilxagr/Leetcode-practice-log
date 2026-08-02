@@ -77,3 +77,16 @@ class Solution(object):
 # For each character, check if its first occurrence index is the same as its last occurrence index.
 # If they are the same, it means the character is unique, and we return its index.
 # If we finish the loop without finding a unique character, we return -1.
+
+class Solution(object):
+    def firstUniqChar(self, s):
+       
+        count = {}
+        for ch in s:
+            count[ch] = count.get(ch, 0) + 1
+
+        for i, ch in enumerate(s):
+            if count[ch] == 1:
+                return i
+
+        return -1
