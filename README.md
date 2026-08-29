@@ -375,17 +375,6 @@ This comprehensive collection documents my journey in mastering Data Structures 
 | **Backtracking**        |    0    |     0     |    0    |   0   |   ⏳   |
 | **Heap**                |    0    |     0     |    0    |   0   |   ⏳   |
 
-### 🎯 Milestones
-
-- [x] 🎉 **First Problem Solved!**
-- [x] 🏅 **10 Problems Solved**
-- [x] 🌟 **20+ Problems Solved**
-- [ ] 💎 **50 Problems Solved**
-- [ ] 🏆 **100 Problems Solved**
-- [ ] 👑 **200 Problems Solved**
-- [ ] 🔥 **Complete All Easy Problems**
-- [ ] ⚡ **100-Day Streak**
-
 </div>
 
 ---
